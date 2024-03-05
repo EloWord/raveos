@@ -1,14 +1,17 @@
 ![Capture d’écran 2024-03-03 à 18 37 48](https://github.com/EloWord/raveos/assets/155255722/07ece88c-1e1a-47f9-b2c6-64b2b0e11113)
 
-### RaveOs
+### RaveOs full Qubic and Eloword Miner Integration
+
+🚀   No need for custom package additions anymore
+Qubic and Eloword are now successfully integrated into Rave OS. This seamless integration enhances the Qubic mining experience and offers an efficient and user-friendly solution .
+
+![Capture d’écran 2024-03-05 à 19 36 51](https://github.com/EloWord/raveos/assets/155255722/035ec9f3-5bb4-4b70-aaac-7a63a5a97b49)
 
 Version 1.8.6
 
 - Enhanced support for QUBIC GPU and CPU Mining on RaveOS 
 *since RaveOS does not support CPU mining, I employed a clever workaround to display CPU it/s as a 2nd box under GPU#0*
 - Support for QUBIC GPU Only mining on Raveos
-
-Use now in "custom mining": https://github.com/EloWord/raveos/releases/download/v1.8.6/eloword-v1.8.6.zip
 
 <br>
 
@@ -45,9 +48,14 @@ Thank you for being part of this journey!
 **High**
 3000 series ```nvidia-smi -lmc 5001 && nvidia-smi -lgc 1600```
 4000 series ```nvidia-smi -lmc 7000 && nvidia-smi -lgc 2900```
+
+Please use "Tunning Settings" from workers's dashboard to set global or specific OC like this:
+<img src="https://github.com/EloWord/raveos/assets/155255722/5ac7b358-02c0-43fe-9531-3e8fe768bc3b" width="30%">
+
+
 <br>
 
-- Extra config arguments Box (options):
+- Additional Command Line Arguments (options):
 
 | Setting | Description |
 | ---- | --------- |
@@ -60,15 +68,11 @@ Thank you for being part of this journey!
 ## ✈️ Rave OS Settings
 
 
-#### I/ Download and *Add* custom zip file here: https://github.com/EloWord/raveos/releases/download/v1.8.6/eloword-v1.8.6.zip
+#### I/ Add Wallet: Select Qubic and Eloword in the lists
+![Capture d’écran 2024-03-05 à 19 54 37](https://github.com/EloWord/raveos/assets/155255722/1bee33a2-0954-4f8e-a0ab-8f764481d454)
 
-![Capture d’écran 2024-03-03 à 20 36 09](https://github.com/EloWord/raveos/assets/155255722/928d8aaa-2da9-4223-8315-44ba2b38c9ce)
 
-
-#### II/ Add Wallet 
-![Capture d’écran 2024-03-03 à 21 46 07](https://github.com/EloWord/raveos/assets/155255722/508e5ca7-fe90-4916-9155-296ab4232cd7)
-
-#### III/ Set Miner Param
+#### II/ Set Miner Param
 - *** GPU + CPU Mining ***
 
 ```
@@ -84,6 +88,8 @@ Thank you for being part of this journey!
 ```
 ![Capture d’écran 2024-03-03 à 20 43 21](https://github.com/EloWord/raveos/assets/155255722/7a60c27d-a750-4417-b2e0-91d12dcb1a42)
 
-#### IV Run Miner
+#### III/ Run Miner
 
-![Capture d’écran 2024-03-03 à 21 53 31](https://github.com/EloWord/raveos/assets/155255722/fdbff527-0731-4b3f-9044-6e8bb55fae73)
+![Capture d’écran 2024-03-05 à 20 19 56](https://github.com/EloWord/raveos/assets/155255722/bc382d28-a8f5-47d7-98e8-56c086660c4a)
+
+
