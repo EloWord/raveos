@@ -19,7 +19,7 @@ Version 1.8.6
 
 If you appreciate my work and want to contribute to its ongoing development, consider leaving a tip. Every contribution, big or small, makes a huge difference and motivates me to continue creating and improving.
 
-- **To support me, use Qubic:** `QYGPXYBKNIDKVFFUWMMJFPWNMPXAPAVFEFEJOTUEIALMQZEFNKXOUUQEWBOM`
+- **To support me, use Qubic:** `TWVQTVPLEMNCWBJZFVCLCZCDGBDBLBWBAPCVQJOUECEZQQBMAPAXSRBEABSK`
 
 *Support received since this version: 620,240,488 Qubic - Thank you for your future support!*
 
