@@ -1,17 +1,27 @@
-![Capture d’écran 2024-03-03 à 18 37 48](https://github.com/EloWord/raveos/assets/155255722/07ece88c-1e1a-47f9-b2c6-64b2b0e11113)
+![1](https://github.com/EloWord/raveos/assets/155255722/2d6863b9-edaf-4700-9c19-decb92dfe480)
+
+
+Version 1.8.8
+
+- added ability to resend unsubmitted solution after a client restart
+- Removed HugePages settings from RaveOs
+- Fixed path issue in raveos package
+- Other stability fixes
+
 
 ### RaveOs full Qubic and Eloword Miner Integration
 
 🚀   No need for custom package additions anymore
 Qubic and Eloword are now successfully integrated into Rave OS. This seamless integration enhances the Qubic mining experience and offers an efficient and user-friendly solution .
 
-![Capture d’écran 2024-03-05 à 19 36 51](https://github.com/EloWord/raveos/assets/155255722/035ec9f3-5bb4-4b70-aaac-7a63a5a97b49)
+1.8.8 custom package available: https://github.com/qubic-li/client/releases/download/v1.8.8/raveoscustom-eloword-1.8.8.zip
 
-Version 1.8.6
+Packages are now uploaded in [Qubic-li official repository](https://github.com/qubic-li/client/releases)
 
-- Enhanced support for QUBIC GPU and CPU Mining on RaveOS 
-*since RaveOS does not support CPU mining, I employed a clever workaround to display CPU it/s as a 2nd box under GPU#0*
-- Support for QUBIC GPU Only mining on Raveos
+
+![3](https://github.com/EloWord/raveos/assets/155255722/d72ecac5-d158-4d03-9609-157d235a6503)
+
+
 
 <br>
 
@@ -28,9 +38,11 @@ If you appreciate my work and want to contribute to its ongoing development, con
 Thank you for being part of this journey!
 <br>
 
-## :warning: Mandatory Installation Instructions
+## :warning: Mandatory Installation Instructions (12/03/2024)
 - The CPU where you run the Client must support AVX2 or AVX512 CPU instructions
 `cat /proc/cpuinfo | grep avx2`(check if `avx2` is in the result)
+- Drivers 535+: run this command to upgrade RaveOs ```upgrade 8926-2226```
+- Use recommended OC **before** mining
 - RAM >= 16Go improves CPU it/s
 - Do not overload your CPUs with threads, instead, aim to find the sweetpoint
 
@@ -41,12 +53,12 @@ Thank you for being part of this journey!
 
 - it's an all-in-one miner (CPU+GPU / GPU only), check out settings below for seamless setup
 
-- Recommended GPU overclocks :
+- Recommended Rave OS GPU overclocks :
 **Medium**
-3000 series ```nvidia-smi -lmc 5001 && nvidia-smi -lgc 1500```
-4000 series ```nvidia-smi -lmc 5001 && nvidia-smi -lgc 2400```
+3000 series ```nvidia-smi -lmc 7000 && nvidia-smi -lgc 1500```
+4000 series ```nvidia-smi -lmc 7000 && nvidia-smi -lgc 2400```
 **High**
-3000 series ```nvidia-smi -lmc 5001 && nvidia-smi -lgc 1600```
+3000 series ```nvidia-smi -lmc 7000 && nvidia-smi -lgc 1700```
 4000 series ```nvidia-smi -lmc 7000 && nvidia-smi -lgc 2900```
 
 Please use "Tunning Settings" from workers's dashboard to set global or specific OC like this:
@@ -69,7 +81,8 @@ Please use "Tunning Settings" from workers's dashboard to set global or specific
 
 
 #### I/ Add Wallet: Select Qubic and Eloword in the lists
-![Capture d’écran 2024-03-05 à 19 54 37](https://github.com/EloWord/raveos/assets/155255722/1bee33a2-0954-4f8e-a0ab-8f764481d454)
+
+![4](https://github.com/EloWord/raveos/assets/155255722/4c486184-e546-4491-9b26-4b0f352745be)
 
 
 #### II/ Set Miner Param
@@ -90,6 +103,4 @@ Please use "Tunning Settings" from workers's dashboard to set global or specific
 
 #### III/ Run Miner
 
-![Capture d’écran 2024-03-05 à 20 19 56](https://github.com/EloWord/raveos/assets/155255722/bc382d28-a8f5-47d7-98e8-56c086660c4a)
-
-
+![2](https://github.com/EloWord/raveos/assets/155255722/c702c5e3-dca3-4805-8bc8-a6cdfd5574f5)
