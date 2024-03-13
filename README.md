@@ -54,20 +54,20 @@ Thank you for being part of this journey!
 - it's an all-in-one miner (CPU+GPU / GPU only), check out settings below for seamless setup
 
 - Recommended Rave OS GPU overclocks :
-**Medium**
-3000 series ```nvidia-smi -lmc 7000 && nvidia-smi -lgc 1500```
-4000 series ```nvidia-smi -lmc 7000 && nvidia-smi -lgc 2400```
-**High**
-3000 series ```nvidia-smi -lmc 7000 && nvidia-smi -lgc 1700```
-4000 series ```nvidia-smi -lmc 7000 && nvidia-smi -lgc 2900```
+**Medium**  
+3000 series ```nvidia-smi -lmc 7000 && nvidia-smi -lgc 1500```  
+4000 series ```nvidia-smi -lmc 7000 && nvidia-smi -lgc 2400```  
+**High**  
+3000 series ```nvidia-smi -lmc 7000 && nvidia-smi -lgc 1700```  
+4000 series ```nvidia-smi -lmc 7000 && nvidia-smi -lgc 2900```  
 
-Please use "Tunning Settings" from workers's dashboard to set global or specific OC like this:
+Please use "Tunning Settings" from workers's dashboard to set global or specific OC like this:  
 <img src="https://github.com/EloWord/raveos/assets/155255722/5ac7b358-02c0-43fe-9531-3e8fe768bc3b" width="30%">
 
 
 <br>
 
-- Additional Command Line Arguments (options):
+- Additional Command Line Arguments (options):  
 
 | Setting | Description |
 | ---- | --------- |
