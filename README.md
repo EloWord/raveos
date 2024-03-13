@@ -8,6 +8,8 @@ Version 1.8.8
 - Fixed path issue in raveos package
 - Other stability fixes
 
+**Important: since qubic algo change, running miner on raveos needs 535+ nvidia drivers, use this command in shell to upgrade raveos:**  
+```upgrade 8926-2226```
 
 ### RaveOs full Qubic and Eloword Miner Integration
 
